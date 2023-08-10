@@ -63,3 +63,34 @@ input {
     font-size: 20px;
     padding-left: 10px;
 }
+
+form input[type="text"]::placeholder {
+    color: rgb(195, 181, 181);
+    font-size: .9rem;
+    font-style: italic;
+    /* padding-left: 2px; */
+}
+
+form [type="submit"] {
+    color: blue;
+    height: 40px;
+    width: 100px;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+    font-size: .98rem;
+    color: rgb(142, 94, 189);
+    font-style: italic;
+}
+
+a {
+    font-size: 25px;
+    margin-left: 115px;
+}
+
+a:hover {
+    color: rgb(142, 94, 189);
+    cursor: pointer;
+    font-style: italic;
+}
