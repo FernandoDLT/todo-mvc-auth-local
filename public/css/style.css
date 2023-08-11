@@ -1,10 +1,65 @@
+* {
+    font-family: cursive;
+}
+
 h1{
     color: red;
 }
-.completed{
-    text-decoration: line-through;
-    color: gray;
+
+li.todoItem::marker {
+    color: green;
+    font-size: 22px;
 }
-.not{
+
+span {
+    color: blue;
+    font-size: 24px;
+}
+
+span:hover {
+    cursor: pointer;
+    color: rgb(142, 94, 189);
+}
+
+span.del {
+    color: red;
+    font-size: 16px;
+}
+
+span.del:hover {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    font-size: 22px;
+    color: gray;
+    font-style: italic;
+}
+.not {
     text-decoration: underline;
+}
+
+h2 {
+    color: rgb(74, 44, 44);
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+form {
+    margin-bottom: 16px;
+}
+
+form [type="text"] {
+    height: 34px;
+    /* border: 1px solid white; */
+}
+
+input {
+    font-size: 20px;
+    padding-left: 10px;
 }
