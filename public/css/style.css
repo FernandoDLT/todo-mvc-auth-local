@@ -38,6 +38,7 @@ span.del:hover {
     color: gray;
     font-style: italic;
 }
+
 .not {
     text-decoration: underline;
 }
